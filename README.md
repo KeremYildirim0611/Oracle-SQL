@@ -6,8 +6,6 @@ Bu repo; bir hayvanat bahçesinde **hayvan**, **tür**, **alan/enclosure**, **pe
 - `sql/01_schema.sql` : Tablolar + PK/FK/Check constraint’ler
 - `sql/02_seed.sql` : Örnek veri (INSERT)
 - `sql/03_queries.sql` : Örnek sorgular (subquery, join, group by, date/char function, update, alter table)
-- `docs/erd.png` : ERD diyagramı (fotoğraf/PNG)
-- `docs/class_diagram.png` : UML Class Diagram (fotoğraf/PNG)
 
 ## 🗂️ Repo Yapısı
 ```
@@ -28,7 +26,7 @@ SQL Developer’da sırayla çalıştır:
 @sql/03_queries.sql
 ```
 
-## ✅ Notlar (Hoca için güçlü görünmesi adına)
+## ✅ Notlar 
 - Zaman alan kolonlar **TIMESTAMP** olarak tasarlandı (ör. FeedingSchedules.Time, VisitPlans.Start/EndTime).
 - Tekrar eden atama/sunum senaryoları için ilişki tablolarında PK içine tarih/saat alanı eklendi (örn. KeeperAssignments, PresentationAssignments).
 - FK kolonları için index önerileri schema dosyasında eklendi.
